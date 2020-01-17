@@ -31,9 +31,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -63,7 +63,8 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
 nav {
 	display: inline-block;
 	width:100%;
@@ -75,6 +76,10 @@ a {
 	padding: 1.5rem;
 	display: inline-block;
 	width: 10%;
+}
+
+.logo-container a{
+	width: 100%;
 }
 
 a:first-child {
