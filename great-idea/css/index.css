@@ -66,32 +66,31 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 nav {
-	display: inline-block;
+	display: flex;
 	width:100%;
 }
 
 a {
 	text-decoration: none;
 	color: #C1C1C1;
-	padding: 1.5rem;
-	display: inline-block;
+	padding: 1.5rem 0;
+	justify-content: space-between;
 	width: 10%;
 }
 
-.logo-container a{
-	width: 100%;
-}
-
-a:first-child {
-	padding-left: 0;
+.logo-container {
+	text-align: right;
+	width: 40%;
+	align-self: center;
 }
 
 .header-text {
-	display: inline-block;
+	margin: 0 auto;
 	text-align: center;
 }
 
 .btn {
+	margin: 0 auto;
 	width: 12rem;
 	padding: 0.5rem;
 	border: 1px solid black;
@@ -109,42 +108,23 @@ a:first-child {
 	margin: 0 auto;
 }
 
-.featuresabout {
+.featuresabout, .SPV {
   width:100%;
-  display:inline-block;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .piccode img {
 	width: 100%;
 }
 
-.logo-container {
-	display: inline-block;
-	text-align: right;
-	width: 37%;
-	vertical-align: middle;
-}
-
-.logo{
-	display:inline-block;
-  }
-
-  .logo img{
-	max-width:100%;
-  }
-
 .featuresabout .content-section {
-	display: inline-block;
-	width: 49%;
+	width: 48%;
 }
 
 .SPV .content-section {
-	display: inline-block;
 	width: 33%;
-}
-
-.SPV, .featuresabout {
-	margin: 2rem 0;
 }
 
 hr {
@@ -157,20 +137,20 @@ h1{
 }
 
 .header {
-	font-size: 0;
+	display: flex;
 }
 
 .header .header-text-content {
-	display: inline-block;
+	display: flex;
 	width: 50%;
 	text-align: center;
 	vertical-align: middle;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .header .header-img-content {
-	display: inline-block;
 	width:50%;
-	vertical-align: middle;
 }
 
 .contact p {
